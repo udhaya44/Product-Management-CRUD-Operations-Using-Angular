@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "pname": "I phone 14",
+      "category": "Mobile",
+      "price": 125000
+    },
+    {
+      "id": 2,
+      "pname": "Smart Tv",
+      "category": "Home Appliances",
+      "price": 85000
+    },
+    {
+      "id": 3,
+      "pname": "Charger",
+      "category": "Accessories",
+      "price": 1500
+    },
+    {
+      "id": 5,
+      "pname": "MI Power Bank",
+      "category": "Accessories",
+      "price": 3800
+    },
+    {
+      "id": 6,
+      "pname": "realme",
+      "category": "Mobile",
+      "price": 50000
+    }
+  ]
+}

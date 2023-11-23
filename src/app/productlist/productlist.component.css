@@ -1,0 +1,32 @@
+/* productlist.component.css */
+
+div {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  article {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+  }
+  
+  article h2 {
+    margin-bottom: 8px;
+  }
+  
+  article p {
+    margin-bottom: 12px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #3498db;
+  }
+  

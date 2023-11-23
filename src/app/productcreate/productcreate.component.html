@@ -1,0 +1,23 @@
+<h1>Add New Product</h1>
+<form (ngSubmit)="save()" #f="ngForm">
+    <div>
+        <label>Product Name</label>
+        <input type="text" name="pname" [(ngModel)]="product.pname" required minlength="3" maxlength="100" #pn="ngModel"> 
+    </div>
+    
+    <div>
+        <label>Product Category</label>
+        <select name="category" [(ngModel)]="product.category" #cat="ngModel">
+            <option *ngFor="let category of categories">{{category}}</option>
+        </select>
+
+    </div>
+    <div>
+        <label>Product Price</label>
+        <input type="number" name="price" [(ngModel)]="product.price" required min="1" max="100000" #prc="ngModel"> 
+    </div>
+
+    <div>
+        <input type="submit" value="Save">
+    </div>
+</form>

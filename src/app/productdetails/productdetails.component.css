@@ -1,0 +1,35 @@
+/* productdetails.component.css */
+
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  p {
+    margin-bottom: 12px;
+  }
+  
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3498db;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  

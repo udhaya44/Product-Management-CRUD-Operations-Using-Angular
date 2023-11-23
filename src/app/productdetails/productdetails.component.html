@@ -1,0 +1,10 @@
+<div>
+    <h1>Details of {{product.pname}}</h1>
+    <p>ID : {{product.id}}</p>
+    <p>NAME : {{product.pname}}</p>
+    <p>CATEGORY : {{product.category}}</p>
+    <p>PRICE : {{product.price | currency:"INR"}}</p>
+    <a routerLink="/">Home</a>
+    <a routerLink="/edit/{{product.id}}">Edit</a>
+    <button (click)="remove()">Delete</button>
+</div>

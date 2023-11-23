@@ -1,0 +1,11 @@
+<div>
+    <a routerLink="create">Add New</a>
+    <h1>List of Products</h1>
+    <div>
+        <article *ngFor="let product of products">
+            <h2>{{product.pname}} </h2>
+            <p>{{product.category}}</p>
+            <a routerLink="details/{{product.id}}">View</a>
+        </article>
+    </div>
+</div>
